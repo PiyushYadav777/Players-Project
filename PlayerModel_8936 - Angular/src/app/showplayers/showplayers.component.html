@@ -1,0 +1,18 @@
+<p>showplayers works!</p>
+<div>
+    <h2>Players Record</h2>
+    <table border="4px">
+        <thead>
+            <tr>
+                <th>Players ID</th>
+                <th>Players Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let p of players">
+                <td>{{p.id}}</td>
+                <td>{{p.name}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

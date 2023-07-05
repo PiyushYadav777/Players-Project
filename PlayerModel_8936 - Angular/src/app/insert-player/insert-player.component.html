@@ -1,0 +1,12 @@
+<p>insert-player works!</p>
+<div>
+    <h1>Save Players Data</h1>
+    <form #insert ="ngForm" (ngSubmit)="savePlayer(insert)">
+        <input type="text" name="id" ngModel="id">
+        <br>
+        <br>
+        <input type="text" name="name" id="name" ngModel="name">
+        <br><br>
+        <input type="submit" value="Save">
+    </form>
+</div>
